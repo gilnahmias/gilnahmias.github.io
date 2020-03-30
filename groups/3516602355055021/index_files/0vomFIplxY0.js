@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["7z9dw"]); }
-
-__d("IntlNub",["csx","BanzaiNectar","CSS","NubController","Toggler"],function(a,b,c,d,e,f,g){a=function(a){"use strict";babelHelpers.inheritsLoose(c,a);function c(c){var d;d=a.call(this)||this;a.prototype.init.call(babelHelpers.assertThisInitialized(d),c);b("Toggler").subscribe("show",function(a,c){c.active&&b("CSS").matchesSelector(c.active,"._4up")&&b("BanzaiNectar").log("translation_app","nub_show",{})});return d}return c}(b("NubController"));e.exports=a},null);
